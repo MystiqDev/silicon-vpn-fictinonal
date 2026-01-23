@@ -513,7 +513,7 @@ body .head {
     margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 
     .pricing {
         padding: 32px 18px;
@@ -607,6 +607,38 @@ body .head {
 
 .faq-item.right::after {
     left: -7px;
+}
+
+@media (max-width: 1024px) {
+    .faq-section {
+        padding: 70px 20px;
+    }
+
+    .faq-wrapper {
+        gap: 40px;
+    }
+
+    .faq-item {
+        width: 90%;
+        position: relative;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .faq-item.left,
+    .faq-item.right {
+        align-self: center;
+        padding: 0;
+    }
+
+    .faq-wrapper::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .faq-item::after {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
