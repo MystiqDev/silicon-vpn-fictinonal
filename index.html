@@ -11,11 +11,12 @@
 <body>
     <div class="head">
         <div class="logo">
-            <img src="assets/logo2.png"> <!--Temporary-->
+            <img src="assets/logo.png">
+            <h1><span class="title-s">SiliconVPN</span></h1>
         </div>
         <div class="nav">
             <ul class="sidebar" id="sidebar">
-                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                <li onclick=hideSidebar()><a href="javascript:void(0)"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
                             viewBox="0 -960 960 960" width="24px" fill="#FFFFFF">
                             <path
                                 d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
@@ -24,40 +25,45 @@
                 <li><a href="#FAQ">FAQ</a></li>
                 <li><a href="#Services">Services</a></li>
                 <li><a href="#Contact">Contact</a></li>
+                <li class="sidebar-cta">
+                    <button class="dynamic-btn" onclick="location.href='#Services'"><span class="dynamic-span">Get
+                            VPN!</span></button>
+                </li>
             </ul>
             <ul>
                 <li class="hideOnMobile"><a href="#Benefits">Benefits</a></li>
                 <li class="hideOnMobile"><a href="#FAQ">FAQ</a></li>
                 <li class="hideOnMobile"><a href="#Services">Services</a></li>
                 <li class="hideOnMobile"><a href="#Contact">Contact</a></li>
-                <li class="menu-btn" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                <li class="menu-btn" onclick=showSidebar()><a href="javascript:void(0)"><svg xmlns="http://www.w3.org/2000/svg"
                             height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF">
                             <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
                         </svg></a></li>
             </ul>
         </div>
         <div class="nav-btn">
-            <button class="dynamic-btn"><span class="dynamic-span">Get VPN!</span></button>
+            <button class="dynamic-btn" onclick="location.href='#Services'"><span class="dynamic-span">Get
+                    VPN!</span></button>
         </div>
     </div>
     <div class="main">
         <div class="intro-content">
             <div class="intro-text">
                 <h1>Access The World.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga aspernatur at et delectus quibusdam
-                    iure consequuntur laborum voluptatem facilis nobis quia ad qui impedit dicta veritatis illo odit
-                    porro, vitae necessitatibus deserunt quas atque sed, tempore dolores. Sunt, animi illum?</p>
+                <p>SiliconVPN gives you private browsing, fast global routing, and one-tap protection across your
+                    devices. Whether you are on public Wi-Fi, working remotely, or streaming while traveling, your
+                    connection stays encrypted and stable.</p>
                 <div class="cta">
                     <button class="dynamic-btn"><span class="dynamic-span">Get VPN!</span></button>
-                    <a href="#"><span class="highlight">Learn More</span></a>
+                    <a href="#Benefits"><span class="highlight">Learn More</span></a>
                 </div>
             </div>
             <div class="intro-img">
                 <img src="assets/image.png">
             </div>
         </div>
-        <p class="small-but-important">Disclaimer: SiliconVPN is NOT a real VPN. This whole page is made only for my
-            practice. There is no VPN being planned to be made.</p>
+        <p class="small-but-important">Disclaimer: SiliconVPN is a concept project created for portfolio practice.
+            Features, plans, and pricing are demo content.</p>
         <div class="wave-transition">
             <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
                 <path d="M0,0 C300,80 600,80 900,20 C1050,0 1150,40 1200,60 L1200,120 L0,120 Z"
@@ -69,9 +75,8 @@
         <section>
             <div class="content-section">
                 <h2 class="fade">Why Choose SiliconVPN?</h2>
-                <p class="fade">Fun Fact: There are over <span class="highlight">500+ million people</span> who use
-                    SiliconVPN
-                    worldwide.</p>
+                <p class="fade">Built for privacy, speed, and simple onboarding so protection is easy to keep on every
+                    day.</p>
                 <div class="benefits-cards fade" id="Benefits">
                     <h2><span class="highlight">Benefits</span></h2>
                     <div class="cards">
@@ -88,9 +93,8 @@
                                                 stroke-linejoin="round"></path>
                                         </g>
                                     </svg>Fast Connection</span></h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dignissimos ex quibusdam
-                                fugit nesciunt eos. Quis, vitae odio tempore nihil vero facere, rem, cumque laudantium
-                                excepturi minima iusto provident sit!</p>
+                            <p>Optimized routing keeps latency low and page loads quick, even on crowded public
+                                networks and long-distance connections.</p>
                         </div>
                         <div class="card">
                             <h3><span class="highlight"><svg viewBox="0 0 24 24" fill="none"
@@ -105,9 +109,8 @@
                                                 stroke-linejoin="round"></path>
                                         </g>
                                     </svg>Secure Encryption</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nesciunt saepe similique
-                                inventore quam vero eaque quibusdam veniam dolores impedit magni, atque, deserunt velit
-                                asperiores delectus, facere nulla praesentium nobis.</p>
+                            <p>Modern encryption standards protect your traffic from network snooping while keeping
+                                performance reliable for daily browsing and work apps.</p>
                         </div>
                         <div class="card">
                             <h3><span class="highlight"><svg version="1.0" id="Layer_1"
@@ -140,9 +143,8 @@
                                             </g>
                                         </g>
                                     </svg>Global Servers</span></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro inventore veritatis
-                                culpa? Molestias voluptate esse illo nostrum reprehenderit et tempora quibusdam! Ipsa
-                                omnis fuga dolorum error velit ratione odio deserunt?</p>
+                            <p>Connect through server locations across major regions so you can maintain better speed
+                                and access services with less regional friction.</p>
                         </div>
                         <div class="card">
                             <h3><span class="highlight"><svg viewBox="0 0 24 24" fill="none"
@@ -157,9 +159,8 @@
                                                 stroke-linejoin="round"></path>
                                         </g>
                                     </svg>24/7 Support</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quae dicta, impedit
-                                non modi minima, quia veritatis nostrum incidunt similique nobis commodi quidem
-                                distinctio asperiores. Esse officia accusamus vel incidunt.</p>
+                            <p>Need help? Support resources and guidance are available around the clock so setup and
+                                troubleshooting stay simple.</p>
                         </div>
                         <div class="card">
                             <h3><span class="highlight"><svg fill="#790d9b" xmlns="http://www.w3.org/2000/svg"
@@ -184,9 +185,8 @@
                                             </g>
                                         </g>
                                     </svg>Easy Setup</span></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis iusto amet sunt
-                                voluptas ipsum at ducimus nulla, voluptatibus laborum provident maiores quibusdam
-                                laudantium possimus? Corporis possimus neque ipsa molestias veniam?</p>
+                            <p>Install quickly, choose your location, and secure your connection in seconds with a
+                                straightforward setup flow.</p>
                         </div>
                         <div class="card">
                             <h3><span class="highlight"><svg viewBox="0 0 16 16" fill="none"
@@ -200,15 +200,15 @@
                                                 fill="#790d9b"></path>
                                         </g>
                                     </svg>Full Privacy</span></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis iusto amet sunt
-                                voluptas ipsum at ducimus nulla, voluptatibus laborum provident maiores quibusdam
-                                laudantium possimus? Corporis possimus neque ipsa molestias veniam?</p>
+                            <p>Privacy-first defaults help minimize exposure by encrypting traffic and limiting
+                                identifiable network activity.</p>
                         </div>
                     </div>
                 </div>
-                <div class="pricing fade">
+                <div class="pricing fade" id="Services">
                     <h2><span class="highlight">Pricing Plans</span></h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</p>
+                    <p>Choose a plan that matches your usage, from occasional browsing to always-on coverage for all
+                        your devices.</p>
                     <div class="cards">
                         <div class="card">
                             <div class="card-content">
@@ -262,58 +262,50 @@
                 </div>
                 <section class="faq-section fade" id="FAQ">
                     <h2>FAQ</h2>
+                    <p class="faq-lead">Quick answers before you choose your plan.</p>
 
-                    <div class="faq-wrapper">
-                        <div class="faq-item left">
-                            <div class="faq-card">
-                                <h3>Is SiliconVPN real?</h3>
-                                <p>Nope. Practice project only.</p>
-                            </div>
-                        </div>
+                    <div class="faq-grid">
+                        <details class="faq-item fadeUp" open>
+                            <summary>Is SiliconVPN real?</summary>
+                            <p>SiliconVPN is a portfolio concept used to showcase UI and frontend implementation.</p>
+                        </details>
 
-                        <div class="faq-item right fadeUp">
-                            <div class="faq-card">
-                                <h3>Do you log data?</h3>
-                                <p>If it were real, no logs.</p>
-                            </div>
-                        </div>
+                        <details class="faq-item fadeUp">
+                            <summary>Do you log data?</summary>
+                            <p>This demo follows a no-logs product direction, but no live VPN service is running.</p>
+                        </details>
 
-                        <div class="faq-item left fadeUp">
-                            <div class="faq-card">
-                                <h3>Would you date me if I was a missle?</h3>
-                                <p>Only if you were a nuclear missle.</p>
-                            </div>
-                        </div>
-                        <div class="faq-item right fadeUp">
-                            <div class="faq-card">
-                                <h3>Can I hack NASA?</h3>
-                                <p>Nice try, FBI.</p>
-                            </div>
-                        </div>
-                        <div class="faq-item left fadeUp">
-                            <div class="faq-card">
-                                <h3>Is SiliconVPN open source?</h3>
-                                <p>Nope. But maybe in the future.</p>
-                            </div>
-                        </div>
-                        <div class="faq-item right fadeUp">
-                            <div class="faq-card">
-                                <h3>I'm Hungry</h3>
-                                <p>
-                                <p>Same. Food break when?</p>
-                            </div>
-                        </div>
-                        <div class="faq-item left fadeUp">
-                            <div class="faq-card">
-                                <h3>Door.</h3>
-                                <p>ok</p>
-                            </div>
-                        </div>
+                        <details class="faq-item fadeUp">
+                            <summary>Is SiliconVPN open source?</summary>
+                            <p>Not currently. A public repository may be shared in a future release of this project.</p>
+                        </details>
+
+                        <details class="faq-item fadeUp">
+                            <summary>What devices are supported?</summary>
+                            <p>The concept is designed for desktop and mobile workflows, with responsive layouts across
+                                modern browsers.</p>
+                        </details>
+
+                        <details class="faq-item fadeUp">
+                            <summary>Can I use this on public Wi-Fi?</summary>
+                            <p>That is the primary use case: secure your traffic when connected to shared or unknown
+                                networks.</p>
+                        </details>
+
+                        <details class="faq-item fadeUp">
+                            <summary>Is there a free plan?</summary>
+                            <p>Yes. The demo pricing includes a free tier plus paid plans for higher usage needs.</p>
+                        </details>
+
+                        <details class="faq-item fadeUp">
+                            <summary>How fast is setup?</summary>
+                            <p>Setup is designed to take just a few minutes with a minimal number of steps.</p>
+                        </details>
                     </div>
                 </section>
             </div>
     </div>
-    <footer>
+    <footer id="Contact">
         <div class="copyright">
             <h2><span class="title-s">Copyright</span></h2>
             <p><strong>© 2026 MystiqDev. All rights reserved.</strong></p>
@@ -355,6 +347,7 @@
 
         document.addEventListener('DOMContentLoaded', () => {
             const targets = document.querySelectorAll('.fade, .fadeUp');
+            const sidebarLinks = document.querySelectorAll('#sidebar a[href^="#"]');
 
             const observer = new IntersectionObserver((entries, obs) => {
                 entries.forEach(entry => {
@@ -366,6 +359,9 @@
             }, { threshold: 0.2 });
 
             targets.forEach(el => observer.observe(el));
+            sidebarLinks.forEach(link => {
+                link.addEventListener('click', hideSidebar);
+            });
 
             // debug helper: show console message if nothing is found
             if (targets.length === 0) console.warn('No fade targets found (selector: .fade, .fadeUp)');
